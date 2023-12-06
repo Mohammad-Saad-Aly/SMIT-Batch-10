@@ -1,0 +1,26 @@
+a{
+    color: white !important;
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+.hhh{
+    margin: auto !important;
+}
+.card{
+    transition: 4s;
+    border: 3px groove black !important;
+}
+
+.card:hover{
+    transform: scale(1.2);
+    transition: 3s;
+    z-index: 1;
+    box-shadow: 0px 0px 15px red;
+}
+
+nav{
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 100000 !important;
+}
